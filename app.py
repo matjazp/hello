@@ -9,7 +9,7 @@ hostname = socket.gethostname()
 
 @app.route('/')
 def hello():
-    return "Hello from version v1 executed on {}\n".format(hostname)
+    return "Hello from version v2 executed on {}\n".format(hostname)
 
 
 if __name__ == '__main__':
